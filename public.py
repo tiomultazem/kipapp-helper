@@ -5,7 +5,7 @@ import fnmatch
 
 ROOT = Path(__file__).resolve().parent
 DEST = ROOT.parent / "public"
-GITIGNORE = ROOT / ".gitignore"
+GITIGNORE = DEST / ".gitignore"
 
 # ==========================
 # 1. Baca daftar ignore
