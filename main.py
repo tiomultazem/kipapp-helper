@@ -1,29 +1,3 @@
-# import sys
-# import importlib.util
-# import os
-# import tkinter as tk
-
-# def import_pyc(name, pyc_path):
-#     spec = importlib.util.spec_from_file_location(name, pyc_path)
-#     module = importlib.util.module_from_spec(spec)
-#     spec.loader.exec_module(module)
-#     return module
-
-# # Path ke folder build/
-# build_dir = os.path.join(os.path.dirname(__file__), "build")
-
-# # Masukkan 'build/' ke sys.path agar import di dalam .pyc bisa temukan module lain
-# sys.path.insert(0, build_dir)
-
-# # Import dari file .pyc
-# app = import_pyc("app", os.path.join(build_dir, "app.pyc"))
-# gui = import_pyc("gui", os.path.join(build_dir, "gui.pyc"))
-
-# # Jalankan GUI
-# if __name__ == "__main__":
-#     root = tk.Tk()
-#     gui.KipappGUI(root)
-#     root.mainloop()
 import importlib.util
 import os
 import sys
