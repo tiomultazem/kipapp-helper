@@ -1,6 +1,6 @@
 # KiPApp Helper
 
-**🚨 PERINGATAN!**  
+**PERINGATAN!**  
 Segala bentuk pelanggaran lisensi akan ditindak **SECARA HUKUM**.  
 Silakan gunakan untuk kepentingan pribadi dan sebarkan **dengan menyertakan link repositori ini**.
 
@@ -8,7 +8,7 @@ Silakan gunakan untuk kepentingan pribadi dan sebarkan **dengan menyertakan link
 
 ---
 
-## 💡 Tentang KiPApp Helper
+## Tentang KiPApp Helper
 
 jadi, ini berawal dari emosiku kudu entri SKP tiap akhir bulan ke KiPApp. ya gimana engga,
 entrian puluhan harus dientri satu-satu, mana isiannya ada 4 string, 1 tanggal dan
@@ -38,63 +38,13 @@ kerjaan kedua dan ketiga tadi (atau yang kerja hingga 5x), menjadi setidaknya se
 kerjaan lah. jadi yea, kerjaan kita tinggal 1.5x dari yang seharusnya. 
 mencatat tiap hari, login ke KiPApp, kemudian ngentri deh. uhuy.
 
-Oiya, penjelasannya dibedakan untuk versi 2 dan versi 3 ya. Anda bebas menggunakan yang
-mana saja, tapi jelas v3 jauh lebih lengkap (pretty sure Anda akan memilih V3. 99,99% wkwk).
-Currently, v2 kutaroh di link https://git.bps.go.id/gilangprasetyo/kipapp-helper.git.
-
 Sekian yapping saya, sekarang masuk ke bagian seriusnya.
 Anda bisa membuka https://s.bps.go.id/kipapp-helper-panduan-beta untuk mulai menggunakan v3 dengan
 panduan lengkap, step by step. Pertanyaan bisa diajukan di QnA yang saya sertakan di sana, ya.
 
 ---
 
-## ⚙️ Versi 2 (V2)
-
-### 🧩 Fitur Utama
-- Tanpa GUI
-- Via JupyterLab
-- Dua fungsi utama: `navigasi()` dan `entri()`
-
-### 📦 Persiapan
-1. Google Form dengan kolom:
-    - `RK SKP atau keywordnya`
-    - `tanggal`
-    - `pre-kegiatan`
-    - `kegiatan`
-    - `jumlah capaian`
-    - `jenis capaian`
-    - `Upload bukti dukung`
-2. Browser **Google Chrome**
-3. **JupyterLab**
-
-> ❗ Format kolom harus **persis sama** dan **case-sensitive**
-
-### 🧭 Langkah Penggunaan
-1. Entri kegiatan tiap hari ke GForm.
-2. Akhir bulan: download Excel dari GForm.
-3. Jalankan bagian 1 (install/import package)
-4. Jalankan bagian 2.1 dan isi:
-    - Username & password SSO
-    - Bulan yang mau dikerjakan
-    - Lokasi Excel
-5. Jalankan bagian 2.2 – 2.4
-6. Jalankan bagian 3 untuk login
-7. Jalankan `navigasi()`
-8. Jalankan `entri()`
-9. Hapus RK kosong dan submit
-10. Jalankan bagian 5 untuk tutup browser
-
----
-
-## 🖥️ Versi 3 (V3) — GUI + CMD
-
-### 🌟 Fitur Tambahan
-- GUI via `cmd`
-- Navigasi, entri, delete SKP, filter bulan, cleaning, auto login SSO, dll.
-- Format Excel **bebas** (asalkan urutannya benar)
-- Tanpa instalasi manual — cukup klik `runner.bat`
-
-### 📦 Persiapan
+### Persiapan
 1. Excel SKP (dengan format V2 **atau** 5 kolom: `rk skp`, `tanggal`, `kegiatan`, `capaian`, `link`)
 2. Chrome browser
 3. `credential.txt` berisi:
@@ -102,7 +52,7 @@ panduan lengkap, step by step. Pertanyaan bisa diajukan di QnA yang saya sertaka
     - Baris 2: password
 4. Semua file dalam satu folder
 
-### 🧭 Langkah Penggunaan
+### Langkah Penggunaan
 1. Entri kegiatan ke GForm/Excel tiap hari
 2. Akhir bulan: siapkan Excel
 3. Bila belum ada Python/Anaconda/Miniconda terinstal, jalankan `runner.bat`.
@@ -115,41 +65,11 @@ KiPApp Helper. Bila sudah menginstal, maka jalankan `main.py` melalui bash.
 8. Hapus RK kosong dan **submit**
 9. Klik **Tutup aplikasi**
 
-> ☕ Sambil jalanin, siapin kopi juga boleh.
-
 ---
 
-## 🤔 FAQ
+## QnA
 
-### FAQ
-
-**Q: Apa itu file .pyc?**  
-A: Hasil kompilasi script Python ke bytecode agar bisa
-dijalankan lebih cepat oleh interpreter Python. Cara
-running nya sama, `python build/gui.pyc` atau `python main.py`
-
-**Q: Apa bisa hapus RK kosong?**  
-A: Saat ini belum. Tunggu update terbaru ya.
-
-**Q: Gimana cara stop aplikasi?**  
-A: Tekan hentikan proses secara beruntun.
-
-**Q: Aku habis hapus python lokal. Kenapa ga bisa reinstall pake runner?**  
-A: Install manual pake python installer yang muncul di foldermu, lalu
-jalankan ulang runner.
-
-**Q: Gimana kalo Python udah ada tapi ga terdeteksi di cmd?**  
-A: Bila eror di cmd seperti ini,
-
->'python' is not recognized as an internal or external command operable program or batch file
-
-cari file `python.exe` mu, salin path nya dan tambahkan ke
-Environment Variable -> System Variable -> Path
-
-lalu restart cmd mu.
-
-**Q: Gimana cara stop aplikasi?**  
-A: Tekan hentikan proses secara beruntun.
+Anda bisa mengakses https://s.bps.go.id/kipapp-helper-qna untuk mengakses QnA
 
 ---
 
