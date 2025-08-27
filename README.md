@@ -39,8 +39,8 @@ kerjaan lah. jadi yea, kerjaan kita tinggal 1.5x dari yang seharusnya.
 mencatat tiap hari, login ke KiPApp, kemudian ngentri deh. uhuy.
 
 Sekian yapping saya, sekarang masuk ke bagian seriusnya.
-Anda bisa membuka https://s.bps.go.id/kipapp-helper-panduan-beta untuk mulai menggunakan v3 dengan
-panduan lengkap, step by step. Pertanyaan bisa diajukan di QnA yang saya sertakan di sana, ya.
+Anda bisa membuka https://s.bps.go.id/kipapp-helper-panduan-beta untuk mulai menggunakan KiPApp Helper
+dengan panduan lengkap, step by step. Pertanyaan bisa diajukan di QnA yang link nya saya sertakan di sana, ya.
 
 ---
 
@@ -65,10 +65,11 @@ nya langsung ke isian, dan tombol di sebelah kanan akan berubah tulisan menjadi 
 12. Tombol `Isi Otomatis SSO`: Untuk mengisi SSO otomatis dari credential.txt yang sudah disiapkan pengguna.
 13. Tombol `Lihat Tabel`: Untuk memunculkan Pop Up tampilan tabel data SKP.
 14. Tab `Main Control`: Memuat 3 tombol fitur utama entri SKP.
+
 _to be continued_
 
 ### Persiapan
-1. Excel SKP (dengan format V2 **atau** 5 kolom: `rk skp`, `tanggal`, `kegiatan`, `capaian`, `link`)
+1. Excel SKP (dengan format pada panduan pengguna **atau** 5 kolom: `rk skp`, `tanggal`, `kegiatan`, `capaian`, `link`)
 2. Chrome browser
 3. `credential.txt` berisi:
     - Baris 1: username
