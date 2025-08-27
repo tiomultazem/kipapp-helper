@@ -44,6 +44,29 @@ panduan lengkap, step by step. Pertanyaan bisa diajukan di QnA yang saya sertaka
 
 ---
 
+### Penjelasan Fitur
+
+#### Jendela Utama
+1. Checkbox `Advanced Mode`: Menampilkan menu advanced yang tidak tercakup dalam fungsi utama entri SKP.
+2. Checkbox `Tampilkan Log`: Menampilkan/Menyembunyikan Log Aktivitas di bawah.
+3. Lampu: kiri, akan menyala kuning bila aplikasi sibuk, dan abu-abu bila idle. kanan, akan menyala hijau bila
+sebuah fungsi berhasil dijalankan, merah bila gagal dijalankan, dan abu-abu bila sibuk.
+4. Tombol `Opsi`: Untuk memunculkan Pop Up Opsi mengatur beberapa behavior aplikasi.
+5. Isian `Username SSO BPS`: Kolom isian username SSO.
+6. Isian `Password SSO BPS`: Kolom isian password SSO.
+7. Isian `Bulan`: Kolom isian bulan (otomatis, mengambil dari bulan sekarang di PC pengguna).
+8. Dropdown `File Lokal SKP`,`Link Spreadsheet SKP`: Pemilihan mode import SKP. Bila file lokal maka tombol di sebelah
+kanan isian akan bertuliskan `Browse` untuk mencari file SKP di file explorer PC pengguna, dan kolom isian akan terisi
+direktori file nya setelah pengguna memilih file. Bila dropdown link dipilih, maka pengguna bisa drop link spreadsheet
+nya langsung ke isian, dan tombol di sebelah kanan akan berubah tulisan menjadi `Import`.
+9. Tombol `Browse`/`Import`: Untuk mencari file di lokal/import dari spreadsheet setelah drop link nya di isian.
+10. Checkbox `Cleaning`: Untuk cleaning file sesuai format KiPApp Helper. Uncheck bila tidak menggunakan format tersebut.
+11. Checkbox `Filter Bulan`: Untuk memfilter baris SKP sesuai bulan yang tertulis di isian. 
+12. Tombol `Isi Otomatis SSO`: Untuk mengisi SSO otomatis dari credential.txt yang sudah disiapkan pengguna.
+13. Tombol `Lihat Tabel`: Untuk memunculkan Pop Up tampilan tabel data SKP.
+14. Tab `Main Control`: Memuat 3 tombol fitur utama entri SKP.
+_to be continued_
+
 ### Persiapan
 1. Excel SKP (dengan format V2 **atau** 5 kolom: `rk skp`, `tanggal`, `kegiatan`, `capaian`, `link`)
 2. Chrome browser
@@ -60,10 +83,9 @@ Python akan otomatis terinstal di direktori tersebut dan langsung membuka
 KiPApp Helper. Bila sudah menginstal, maka jalankan `main.py` melalui bash.
 4. Klik **Isi Otomatis SSO**, pilih Excel, uncheck "Aktifkan Cleaning" bila pakai format bebas
 5. Klik **Inisialisasi**, masukkan OTP dan tutup popup
-6. Klik **Ke halaman pelaksanaan**
-7. Klik **Mulai entri SKP**
+6. Klik **Navigasi**
+7. Klik **Entri SKP**
 8. Hapus RK kosong dan **submit**
-9. Klik **Tutup aplikasi**
 
 ---
 
