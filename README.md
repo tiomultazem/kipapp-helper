@@ -1,6 +1,6 @@
 # KiPApp Helper
 
-**🚨 PERINGATAN!**  
+**PERINGATAN!**  
 Segala bentuk pelanggaran lisensi akan ditindak **SECARA HUKUM**.  
 Silakan gunakan untuk kepentingan pribadi dan sebarkan **dengan menyertakan link repositori ini**.
 
@@ -8,7 +8,27 @@ Silakan gunakan untuk kepentingan pribadi dan sebarkan **dengan menyertakan link
 
 ---
 
-## 💡 Tentang KiPApp Helper
+## Riwayat Update
+
+| Waktu                  | Lokasi Update | Rincian Update                                                                 |
+|------------------------|---------------|--------------------------------------------------------------------------------|
+| 29 Juli 2025 11:38 WITA | Git, GDrive   | Perbaikan fungsi entri SKP dengan format bebas                                 |
+| 31 Juli 2025 10:20 WITA | Git           | Menyesuaikan beberapa log                                                       |
+| 31 Juli 2025 14:30 WITA | Git, GDrive   | Penambahan fungsi atur delay di 8 titik                                         |
+| 31 Juli 2025 14:49 WITA | Git           | Ubah sistem threading biar ga ngefreeze                                         |
+| 31 Juli 2025 15:02 WITA | Git           | Kunci inisialisasi bila ada browser terbuka                                     |
+| 1 Agustus 2025 14:00 WITA | Git         | Pembaruan log dan peningkatan UX, memotong loop bila terdapat error input       |
+| 1 Agustus 2025 14:44 WITA | Git         | Sinkronisasi tabel SKP yang di-view dan dientri                                 |
+| 6 Agustus 2025 11:40 WITA | Git, GDrive | Pembaruan tampilan dan tata letak                                               |
+| 7 Agustus 2025 13:09 WITA | Git         | Optimisasi dark mode dan beberapa log                                           |
+| 12 Agustus 2025        | Git           | Penambahan fitur import dari link spreadsheet langsung                          |
+| 17 Agustus 2025        | Git, Drive    | Penambahan fitur import dari Excel Drive BPS Langsung                           |
+| 20 Agustus 2025        | Github        | Mengubah tempat update menjadi di Github, menyederhanakan tampilan              |
+| 29 Agustus 2025        | Github        | Memperbaiki auto close untuk pengguna yang login menggunakan OTP                |
+
+---
+
+## Tentang KiPApp Helper
 
 jadi, ini berawal dari emosiku kudu entri SKP tiap akhir bulan ke KiPApp. ya gimana engga,
 entrian puluhan harus dientri satu-satu, mana isiannya ada 4 string, 1 tanggal dan
@@ -38,71 +58,45 @@ kerjaan kedua dan ketiga tadi (atau yang kerja hingga 5x), menjadi setidaknya se
 kerjaan lah. jadi yea, kerjaan kita tinggal 1.5x dari yang seharusnya. 
 mencatat tiap hari, login ke KiPApp, kemudian ngentri deh. uhuy.
 
-Oiya, penjelasannya dibedakan untuk versi 2 dan versi 3 ya. Anda bebas menggunakan yang
-mana saja, tapi jelas v3 jauh lebih lengkap (pretty sure Anda akan memilih V3. 99,99% wkwk).
-Currently, v2 kutaroh di link https://git.bps.go.id/gilangprasetyo/kipapp-helper.git.
-
 Sekian yapping saya, sekarang masuk ke bagian seriusnya.
-Anda bisa membuka https://s.bps.go.id/kipapp-helper-panduan-beta untuk mulai menggunakan v3 dengan
-panduan lengkap, step by step. Pertanyaan bisa diajukan di QnA yang saya sertakan di sana, ya.
+Anda bisa membuka https://s.bps.go.id/kipapp-helper-panduan-beta untuk mulai menggunakan KiPApp Helper
+dengan panduan lengkap, step by step. Pertanyaan bisa diajukan di QnA yang link nya saya sertakan di sana, ya.
 
 ---
 
-## ⚙️ Versi 2 (V2)
+### Penjelasan Fitur
 
-### 🧩 Fitur Utama
-- Tanpa GUI
-- Via JupyterLab
-- Dua fungsi utama: `navigasi()` dan `entri()`
+#### Jendela Utama
+1. Checkbox `Advanced Mode`: Menampilkan menu advanced yang tidak tercakup dalam fungsi utama entri SKP.
+2. Checkbox `Tampilkan Log`: Menampilkan/Menyembunyikan Log Aktivitas di bawah.
+3. Lampu: kiri, akan menyala kuning bila aplikasi sibuk, dan abu-abu bila idle. kanan, akan menyala hijau bila
+sebuah fungsi berhasil dijalankan, merah bila gagal dijalankan, dan abu-abu bila sibuk.
+4. Tombol `Opsi`: Untuk memunculkan Pop Up Opsi mengatur beberapa behavior aplikasi.
+5. Isian `Username SSO BPS`: Kolom isian username SSO.
+6. Isian `Password SSO BPS`: Kolom isian password SSO.
+7. Isian `Bulan`: Kolom isian bulan (otomatis, mengambil dari bulan sekarang di PC pengguna).
+8. Dropdown `File Lokal SKP`/`Link Spreadsheet SKP`: Pemilihan mode import SKP. Bila file lokal maka tombol di sebelah
+kanan isian akan bertuliskan `Browse` untuk mencari file SKP di file explorer PC pengguna, dan kolom isian akan terisi
+direktori file nya setelah pengguna memilih file. Bila dropdown link dipilih, maka pengguna bisa drop link spreadsheet
+nya langsung ke isian, dan tombol di sebelah kanan akan berubah tulisan menjadi `Import`.
+9. Tombol `Browse`/`Import`: Untuk mencari file di lokal/import dari spreadsheet setelah drop link nya di isian.
+10. Checkbox `Cleaning`: Untuk cleaning file sesuai format KiPApp Helper. Uncheck bila tidak menggunakan format tersebut.
+11. Checkbox `Filter Bulan`: Untuk memfilter baris SKP sesuai bulan yang tertulis di isian. 
+12. Tombol `Isi Otomatis SSO`: Untuk mengisi SSO otomatis dari credential.txt yang sudah disiapkan pengguna.
+13. Tombol `Lihat Tabel`: Untuk memunculkan Pop Up tampilan tabel data SKP.
+14. Tab `Main Control`: Memuat 3 tombol fitur utama entri SKP.
 
-### 📦 Persiapan
-1. Google Form dengan kolom:
-    - `RK SKP atau keywordnya`
-    - `tanggal`
-    - `pre-kegiatan`
-    - `kegiatan`
-    - `jumlah capaian`
-    - `jenis capaian`
-    - `Upload bukti dukung`
-2. Browser **Google Chrome**
-3. **JupyterLab**
+_to be continued_
 
-> ❗ Format kolom harus **persis sama** dan **case-sensitive**
-
-### 🧭 Langkah Penggunaan
-1. Entri kegiatan tiap hari ke GForm.
-2. Akhir bulan: download Excel dari GForm.
-3. Jalankan bagian 1 (install/import package)
-4. Jalankan bagian 2.1 dan isi:
-    - Username & password SSO
-    - Bulan yang mau dikerjakan
-    - Lokasi Excel
-5. Jalankan bagian 2.2 – 2.4
-6. Jalankan bagian 3 untuk login
-7. Jalankan `navigasi()`
-8. Jalankan `entri()`
-9. Hapus RK kosong dan submit
-10. Jalankan bagian 5 untuk tutup browser
-
----
-
-## 🖥️ Versi 3 (V3) — GUI + CMD
-
-### 🌟 Fitur Tambahan
-- GUI via `cmd`
-- Navigasi, entri, delete SKP, filter bulan, cleaning, auto login SSO, dll.
-- Format Excel **bebas** (asalkan urutannya benar)
-- Tanpa instalasi manual — cukup klik `runner.bat`
-
-### 📦 Persiapan
-1. Excel SKP (dengan format V2 **atau** 5 kolom: `rk skp`, `tanggal`, `kegiatan`, `capaian`, `link`)
+### Persiapan
+1. Excel SKP (dengan format pada panduan pengguna **atau** 5 kolom: `rk skp`, `tanggal`, `kegiatan`, `capaian`, `link`)
 2. Chrome browser
 3. `credential.txt` berisi:
     - Baris 1: username
     - Baris 2: password
 4. Semua file dalam satu folder
 
-### 🧭 Langkah Penggunaan
+### Langkah Penggunaan
 1. Entri kegiatan ke GForm/Excel tiap hari
 2. Akhir bulan: siapkan Excel
 3. Bila belum ada Python/Anaconda/Miniconda terinstal, jalankan `runner.bat`.
@@ -110,46 +104,15 @@ Python akan otomatis terinstal di direktori tersebut dan langsung membuka
 KiPApp Helper. Bila sudah menginstal, maka jalankan `main.py` melalui bash.
 4. Klik **Isi Otomatis SSO**, pilih Excel, uncheck "Aktifkan Cleaning" bila pakai format bebas
 5. Klik **Inisialisasi**, masukkan OTP dan tutup popup
-6. Klik **Ke halaman pelaksanaan**
-7. Klik **Mulai entri SKP**
+6. Klik **Navigasi**
+7. Klik **Entri SKP**
 8. Hapus RK kosong dan **submit**
-9. Klik **Tutup aplikasi**
-
-> ☕ Sambil jalanin, siapin kopi juga boleh.
 
 ---
 
-## 🤔 FAQ
+## QnA
 
-### FAQ
-
-**Q: Apa itu file .pyc?**  
-A: Hasil kompilasi script Python ke bytecode agar bisa
-dijalankan lebih cepat oleh interpreter Python. Cara
-running nya sama, `python build/gui.pyc` atau `python main.py`
-
-**Q: Apa bisa hapus RK kosong?**  
-A: Saat ini belum. Tunggu update terbaru ya.
-
-**Q: Gimana cara stop aplikasi?**  
-A: Tekan hentikan proses secara beruntun.
-
-**Q: Aku habis hapus python lokal. Kenapa ga bisa reinstall pake runner?**  
-A: Install manual pake python installer yang muncul di foldermu, lalu
-jalankan ulang runner.
-
-**Q: Gimana kalo Python udah ada tapi ga terdeteksi di cmd?**  
-A: Bila eror di cmd seperti ini,
-
->'python' is not recognized as an internal or external command operable program or batch file
-
-cari file `python.exe` mu, salin path nya dan tambahkan ke
-Environment Variable -> System Variable -> Path
-
-lalu restart cmd mu.
-
-**Q: Gimana cara stop aplikasi?**  
-A: Tekan hentikan proses secara beruntun.
+Anda bisa mengakses https://s.bps.go.id/kipapp-helper-qna untuk mengakses QnA
 
 ---
 
