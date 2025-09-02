@@ -8,6 +8,26 @@ Silakan gunakan untuk kepentingan pribadi dan sebarkan **dengan menyertakan link
 
 ---
 
+## Riwayat Update
+
+| Waktu                  | Lokasi Update | Rincian Update                                                                 |
+|------------------------|---------------|--------------------------------------------------------------------------------|
+| 29 Juli 2025 11:38 WITA | Git, GDrive   | Perbaikan fungsi entri SKP dengan format bebas                                 |
+| 31 Juli 2025 10:20 WITA | Git           | Menyesuaikan beberapa log                                                       |
+| 31 Juli 2025 14:30 WITA | Git, GDrive   | Penambahan fungsi atur delay di 8 titik                                         |
+| 31 Juli 2025 14:49 WITA | Git           | Ubah sistem threading biar ga ngefreeze                                         |
+| 31 Juli 2025 15:02 WITA | Git           | Kunci inisialisasi bila ada browser terbuka                                     |
+| 1 Agustus 2025 14:00 WITA | Git         | Pembaruan log dan peningkatan UX, memotong loop bila terdapat error input       |
+| 1 Agustus 2025 14:44 WITA | Git         | Sinkronisasi tabel SKP yang di-view dan dientri                                 |
+| 6 Agustus 2025 11:40 WITA | Git, GDrive | Pembaruan tampilan dan tata letak                                               |
+| 7 Agustus 2025 13:09 WITA | Git         | Optimisasi dark mode dan beberapa log                                           |
+| 12 Agustus 2025        | Git           | Penambahan fitur import dari link spreadsheet langsung                          |
+| 17 Agustus 2025        | Git, Drive    | Penambahan fitur import dari Excel Drive BPS Langsung                           |
+| 20 Agustus 2025        | Github        | Mengubah tempat update menjadi di Github, menyederhanakan tampilan              |
+| 29 Agustus 2025        | Github        | Memperbaiki auto close untuk pengguna yang login menggunakan OTP                |
+
+---
+
 ## Tentang KiPApp Helper
 
 jadi, ini berawal dari emosiku kudu entri SKP tiap akhir bulan ke KiPApp. ya gimana engga,
