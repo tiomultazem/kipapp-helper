@@ -89,26 +89,6 @@ nya langsung ke isian, dan tombol di sebelah kanan akan berubah tulisan menjadi 
 
 _to be continued_
 
-### Persiapan
-1. Excel SKP (dengan format pada panduan pengguna **atau** 5 kolom: `rk skp`, `tanggal`, `kegiatan`, `capaian`, `link`)
-2. Chrome browser
-3. `credential.txt` berisi:
-    - Baris 1: username
-    - Baris 2: password
-4. Semua file dalam satu folder
-
-### Langkah Penggunaan
-1. Entri kegiatan ke GForm/Excel tiap hari
-2. Akhir bulan: siapkan Excel
-3. Bila belum ada Python/Anaconda/Miniconda terinstal, jalankan `runner.bat`.
-Python akan otomatis terinstal di direktori tersebut dan langsung membuka
-KiPApp Helper. Bila sudah menginstal, maka jalankan `main.py` melalui bash.
-4. Klik **Isi Otomatis SSO**, pilih Excel, uncheck "Aktifkan Cleaning" bila pakai format bebas
-5. Klik **Inisialisasi**, masukkan OTP dan tutup popup
-6. Klik **Navigasi**
-7. Klik **Entri SKP**
-8. Hapus RK kosong dan **submit**
-
 ---
 
 ## QnA
