@@ -21,10 +21,11 @@ Silakan gunakan untuk kepentingan pribadi dan sebarkan **dengan menyertakan link
 | 1 Agustus 2025 14:44 WITA | Git         | Sinkronisasi tabel SKP yang di-view dan dientri                                 |
 | 6 Agustus 2025 11:40 WITA | Git, GDrive | Pembaruan tampilan dan tata letak                                               |
 | 7 Agustus 2025 13:09 WITA | Git         | Optimisasi dark mode dan beberapa log                                           |
-| 12 Agustus 2025        | Git           | Penambahan fitur import dari link spreadsheet langsung                          |
-| 17 Agustus 2025        | Git, Drive    | Penambahan fitur import dari Excel Drive BPS Langsung                           |
-| 20 Agustus 2025        | Github        | Mengubah tempat update menjadi di Github, menyederhanakan tampilan              |
-| 29 Agustus 2025        | Github        | Memperbaiki auto close untuk pengguna yang login menggunakan OTP                |
+| 12 Agustus 2025      | Git         | Penambahan fitur import dari link spreadsheet langsung                          |
+| 17 Agustus 2025      | Git, Drive  | Penambahan fitur import dari Excel Drive BPS Langsung                           |
+| 20 Agustus 2025      | Github      | Mengubah tempat update menjadi di Github, menyederhanakan tampilan              |
+| 29 Agustus 2025      | Github      | Memperbaiki auto close untuk pengguna yang login menggunakan OTP                |
+| 3 September 2025     | Github      | Menambahkan fitur baru: Handling file di Drive BPS                |
 
 ---
 
