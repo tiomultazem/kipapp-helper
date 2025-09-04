@@ -76,7 +76,7 @@ sebuah fungsi berhasil dijalankan, merah bila gagal dijalankan, dan abu-abu bila
 5. Isian `Username SSO BPS`: Kolom isian username SSO.
 6. Isian `Password SSO BPS`: Kolom isian password SSO.
 7. Isian `Bulan`: Kolom isian bulan (otomatis, mengambil dari bulan sekarang di PC pengguna).
-8. Dropdown `File Lokal SKP`/`Link Spreadsheet SKP`: Pemilihan mode import SKP. Bila file lokal maka tombol di sebelah
+8. Dropdown `Excel Lokal`/`GSheet`: Pemilihan mode import SKP. Bila file lokal maka tombol di sebelah
 kanan isian akan bertuliskan `Browse` untuk mencari file SKP di file explorer PC pengguna, dan kolom isian akan terisi
 direktori file nya setelah pengguna memilih file. Bila dropdown link dipilih, maka pengguna bisa drop link spreadsheet
 nya langsung ke isian, dan tombol di sebelah kanan akan berubah tulisan menjadi `Import`.
