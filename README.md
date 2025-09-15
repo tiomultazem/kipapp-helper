@@ -7,6 +7,9 @@ Silakan gunakan untuk kepentingan pribadi dan sebarkan **dengan menyertakan link
 > **DILARANG KERAS MENYEBARKAN FILE APLIKASI SECARA LANGSUNG TANPA IZIN.**
 
 ---
+## Fitur Baru
+Siap bekerja dengan rentang tanggal? KiPApp Helper sekarang sudah bisa menangani rentang tanggal!
+Ayo, gunakan KiPApp Helper untuk input SKP mu yang memuat rentang tanggal itu 🥳
 
 ## Riwayat Update
 
@@ -26,6 +29,7 @@ Silakan gunakan untuk kepentingan pribadi dan sebarkan **dengan menyertakan link
 | 20 Agustus 2025      | Github      | Mengubah tempat update menjadi di Github, menyederhanakan tampilan              |
 | 29 Agustus 2025      | Github      | Memperbaiki auto close untuk pengguna yang login menggunakan OTP                |
 | 3 September 2025     | Github      | Menambahkan fitur baru: Handling file di Drive BPS                |
+| 15 September 2025     | Github      | Menambahkan fitur baru: Handling Rentang Tanggal                |
 
 ---
 
