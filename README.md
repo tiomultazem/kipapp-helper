@@ -1,11 +1,5 @@
 # KiPApp Helper
 
-**PERINGATAN!**  
-Segala bentuk pelanggaran lisensi akan ditindak **SECARA HUKUM**.  
-Silakan gunakan untuk kepentingan pribadi dan sebarkan **dengan menyertakan link repositori ini**.
-
-> **DILARANG KERAS MENYEBARKAN FILE APLIKASI SECARA LANGSUNG TANPA IZIN.**
-
 ---
 ## Fitur Baru
 Siap bekerja dengan rentang tanggal? KiPApp Helper sekarang sudah bisa menangani rentang tanggal!
@@ -100,6 +94,10 @@ _to be continued_
 Anda bisa mengakses https://s.bps.go.id/kipapp-helper-qna untuk mengakses QnA
 
 ---
+
+**PERINGATAN!**  
+Segala bentuk pelanggaran lisensi akan ditindak **SECARA HUKUM**.  
+Silakan sebarkan **hanya dengan cara menyertakan link repositori ini**.
 
 ## 📄 Lisensi (Bahasa Indonesia)
 
