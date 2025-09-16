@@ -2,9 +2,10 @@
 
 ---
 ## Fitur Baru
-Siap bekerja dengan rentang tanggal? KiPApp Helper sekarang sudah bisa menangani rentang tanggal!
-Ayo, gunakan KiPApp Helper untuk input SKP mu yang memuat rentang tanggal itu 🥳
-
+- Siap bekerja dengan rentang tanggal? KiPApp Helper sekarang sudah bisa menangani rentang tanggal!
+Ayo, gunakan KiPApp Helper untuk input SKP anda yang memuat rentang tanggal itu 🥳
+- Masih _kekeuh_ menggunakan Drive BPS untuk menyimpan bukti dukung, meskipun harus enable link satu-
+persatu? Tenang. KiPApp Helper akan mengklik link-link tersebut untuk anda, cukup dengan 1 tombol!
 ## Riwayat Update
 
 | Waktu                  | Lokasi Update | Rincian Update                                                                 |
