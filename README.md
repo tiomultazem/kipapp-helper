@@ -1,16 +1,11 @@
 # KiPApp Helper
 
-**PERINGATAN!**  
-Segala bentuk pelanggaran lisensi akan ditindak **SECARA HUKUM**.  
-Silakan gunakan untuk kepentingan pribadi dan sebarkan **dengan menyertakan link repositori ini**.
-
-> **DILARANG KERAS MENYEBARKAN FILE APLIKASI SECARA LANGSUNG TANPA IZIN.**
-
 ---
 ## Fitur Baru
-Siap bekerja dengan rentang tanggal? KiPApp Helper sekarang sudah bisa menangani rentang tanggal!
-Ayo, gunakan KiPApp Helper untuk input SKP mu yang memuat rentang tanggal itu 🥳
-
+- Siap bekerja dengan rentang tanggal? KiPApp Helper sekarang sudah bisa menangani rentang tanggal!
+Ayo, gunakan KiPApp Helper untuk input SKP anda yang memuat rentang tanggal itu 🥳
+- Masih _kekeuh_ menggunakan Drive BPS untuk menyimpan bukti dukung, meskipun harus enable link satu-
+persatu? Tenang. KiPApp Helper akan mengklik link-link tersebut untuk anda, cukup dengan 1 tombol!
 ## Riwayat Update
 
 | Waktu                  | Lokasi Update | Rincian Update                                                                 |
@@ -100,6 +95,10 @@ _to be continued_
 Anda bisa mengakses https://s.bps.go.id/kipapp-helper-qna untuk mengakses QnA
 
 ---
+
+**PERINGATAN!**  
+Segala bentuk pelanggaran lisensi akan ditindak **SECARA HUKUM**.  
+Silakan sebarkan **hanya dengan cara menyertakan link repositori ini**.
 
 ## 📄 Lisensi (Bahasa Indonesia)
 
