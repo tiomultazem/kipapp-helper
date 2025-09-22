@@ -52,7 +52,8 @@ Hah? Otomatis?
 TING 💡 Seketika ada lampu menyala di atas kepala saya. 
 
 Saya akan membuat sebuah alat bantu untuk melakukan hal tersebut.
-_Helping BPS people enter SKP into KiPApp,so they still can keep their performance up!_
+_**Helping** BPS people enter SKP into KiPApp, so they still can keep their performance up!_
+
 Dan jadilah **KiPApp Helper** ini, atas seizin Allah, mengambil nama dari fungsinya tadi. Membantu. Help. 
 
 Tentu terciptanya KiPApp Helper ini tidak serta merta jadi. Saya harus melalui berbagai tahapan: merancang,
