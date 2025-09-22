@@ -51,17 +51,19 @@ Hah? Otomatis?
 
 TING 💡 Seketika ada lampu menyala di atas kepala saya. 
 
-lalu jadilah **KiPApp Helper** ini, atas seizin Allah. 
+Saya akan membuat sebuah alat bantu untuk melakukan hal tersebut. Helping BPS people enter SKP into KiPApp.
+Dan jadilah **KiPApp Helper** ini, atas seizin Allah, mengambil nama dari fungsinya tadi. Membantu. Help. 
 
-yaa ngga serta merta jadi dong. ngoding dulu, trial error beberapa kali, sampai akhirnya
-ditemukanlah kodingan yang solutif ini. alhamdulillah, dengan ini kita bisa mengeliminasi
-kerjaan kedua dan ketiga tadi (atau yang kerja hingga 5x), menjadi setidaknya setengah 
-kerjaan lah. jadi yea, kerjaan kita tinggal 1.5x dari yang seharusnya. 
-mencatat tiap hari, login ke KiPApp, kemudian ngentri deh. uhuy.
+Tentu terciptanya KiPApp Helper ini tidak serta merta jadi. Saya harus melalui berbagai tahapan: merancang,
+wawancara calon pengguna, menulis kode, _trial-error_ berkali-kali, _testing_, sampai akhirnya jadi.
+Alhamdulillah, dengan ini kita bisa mengeliminasi pekerjaan redundan tadi hanya dengan klik beberapa tombol
+di KiPApp Helper: login ke KiPApp, navigasi ke halaman pelaksanaan, isi SKP, selesai. Cepat, efisien.
 
-Sekian yapping saya, sekarang masuk ke bagian seriusnya.
+Tertarik menjadikan entri SKP bulanan anda lebih cepat dan efisien juga?
 Anda bisa membuka https://s.bps.go.id/kipapp-helper-panduan-beta untuk mulai menggunakan KiPApp Helper
-dengan panduan lengkap, step by step. Pertanyaan bisa diajukan di QnA yang link nya saya sertakan di sana, ya.
+dengan panduan lengkap, step by step.
+
+Pertanyaan bisa diajukan di QnA yang link nya saya sertakan di sana, ya.
 
 ---
 
