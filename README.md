@@ -30,25 +30,26 @@ persatu? Tenang. KiPApp Helper akan mengklik link-link tersebut untuk anda, cuku
 
 ## Tentang KiPApp Helper
 
-jadi, ini berawal dari emosiku kudu entri SKP tiap akhir bulan ke KiPApp. ya gimana engga,
-entrian puluhan harus dientri satu-satu, mana isiannya ada 4 string, 1 tanggal dan
-1 kotak centang. lalu 2 di antara string tersebut isinya sama, cuma dibedakan header dan footer
-aja. lalu butuh file bukti, di mana KiPApp mintanya cuma link buktinya aja. buktinya taroh di
-mana? ya gatau, pokoknya saia (KiPApp) butuhnya cuma link bukti weeek 🤪
+Jadi, ini berawal dari keresahan pribadi entri SKP tiap akhir bulan ke KiPApp. Yang meresahkan adalah:
+entrian puluhan baris SKP setiap bulannya harus dientri satu-satu, dengan formulir 4 string, 1 tanggal dan
+1 kotak centang. Lalu, ada 2 string dengan sebagian isian yang identik. Lalu, formulir ini membutuhkan
+link bukti dukung kinerja, di mana kita harus meletakkan file bukti dukung di cloud, menyalin link nya,
+baru menempelkannya pada formulir KiPApp.
 
-saya (dev) tau, bahwa bentuk kerja 3x ini (satu: mencatat kerjaan dan bukti di tempat lain,
-kemudian dua: mengentrinya ke KiPApp, tiga: SATU-PERSATU) cukup menyebalkan
-(setidaknya buat saya dan beberapa testimoni jujur dari rekan-rekan selindo)
-lalu akan lebih rumit lagi kalo ga pake form yang generate link bukti dukungnya otomatis,
-kek cuma nyimpen bukti di drive BPS misalkan. kamu harus _enable sharing_ gambarnya (kerjaan
-keempat) dan lagi: ENABLE NYA SATU PERSATU!!! (ok ini kerjaan kelima, jadi kalo kamu pake
-cara ini kuhitung jadi 5x kerja lah)
+Menurut saya sebagai pengguna KiPApp, bentuk kerja redundan ini cukup merepotkan, setidaknya buat saya dan
+beberapa testimoni jujur dari rekan-rekan sesatker dan selindo. Lalu, hal ini akan lebih rumit lagi bilamana
+pengguna tidak memakai formulir yang bisa generate link bukti dukungnya otomatis seperti Gform. Pengguna
+biasanya meng-upload bukti dukung di Drive BPS yang harus _enable sharing_ setiap file-nya satu-persatu. Bila
+seperti ini, maka malah terjadi redundansi di pengisian SKP serta redudansi di pengumpulan link bukti dukung.
+Repot pangkat dua.
 
-jadi saya memikirkan: bisa ga sih,entri ke KiPApp kubuat otomatis aja?
+Jadi saya memikirkan: "Bisa tidak ya, ~saya intervensi Direktorat SIS agar~ pengisian KiPApp menjadi otomatis? 
 
-hah? otomatis?
+...
 
-seketika ada lampu menyala di atas kepala saya. ting 💡
+Hah? Otomatis?
+
+TING 💡 Seketika ada lampu menyala di atas kepala saya. 
 
 lalu jadilah **KiPApp Helper** ini, atas seizin Allah. 
 
