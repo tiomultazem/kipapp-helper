@@ -61,6 +61,10 @@ wawancara calon pengguna, menulis kode, _trial-error_ berkali-kali, _testing_, s
 Alhamdulillah, dengan ini kita bisa mengeliminasi pekerjaan redundan tadi hanya dengan klik beberapa tombol
 di KiPApp Helper: login ke KiPApp, navigasi ke halaman pelaksanaan, isi SKP, selesai. Cepat, efisien.
 
+Lalu, perlu diperhatikan juga bahwa ini hanyalah helper. Bukan pengganti KiPApp itu sendiri.
+Anda tetap harus mengisi SKP setiap hari, dengan rapi, di spreadsheet/excel, sesuai format agar di akhir
+bulan nanti bisa dientri oleh KiPApp Helper. Jadi, jangan malas mencatat SKP harian ya? hehe.  
+
 Tertarik menjadikan entri SKP bulanan anda lebih cepat dan efisien juga?
 Anda bisa membuka https://s.bps.go.id/kipapp-helper-panduan-beta untuk mulai menggunakan KiPApp Helper
 dengan panduan lengkap, step by step.
