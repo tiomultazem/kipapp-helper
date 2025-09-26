@@ -1,11 +1,17 @@
 # KiPApp Helper
 
 ---
+## Pemberitahuan Update
+Per 25 September 2025, aplikasi baru saja mendapatkan penyegaran fungsi penanganan eror. Harap **segera update** aplikasi anda.
+
+---
 ## Fitur Baru
 - Siap bekerja dengan rentang tanggal? KiPApp Helper sekarang sudah bisa menangani rentang tanggal!
 Ayo, gunakan KiPApp Helper untuk input SKP anda yang memuat rentang tanggal itu 🥳
 - Masih _kekeuh_ menggunakan Drive BPS untuk menyimpan bukti dukung, meskipun harus enable link satu-
-persatu? Tenang. KiPApp Helper akan mengklik link-link tersebut untuk anda, cukup dengan 1 tombol!
+persatu? Tenang. KiPApp Helper juga mendukung ke-_kekeuh_-an anda kok! Dia akan mengklik link-link tersebut
+untuk anda, cukup dengan 1 tombol!
+
 ## Riwayat Update
 
 | Waktu                  | Lokasi Update | Rincian Update                                                                 |
