@@ -1,6 +1,10 @@
 # KiPApp Helper
 
 ---
+## Pemberitahuan
+Per 25 September 2025, aplikasi baru saja mendapatkan penyegaran fungsi penanganan eror. Harap **segera update** aplikasi anda.
+
+---
 ## Fitur Baru
 - Siap bekerja dengan rentang tanggal? KiPApp Helper sekarang sudah bisa menangani rentang tanggal!
 Ayo, gunakan KiPApp Helper untuk input SKP anda yang memuat rentang tanggal itu 🥳
