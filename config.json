@@ -1,10 +1,10 @@
 {
     "dark_mode_enabled": false,
-    "hide_about": false,
-    "import_mode": "Gsheet",
-    "cleaning": true,
-    "filter": true,
-    "show_log": false,
+    "hide_about": true,
+    "import_mode": "Excel Lokal",
+    "cleaning": false,
+    "filter": false,
+    "show_log": true,
     "advanced_mode": true,
     "chrome_path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
 }
