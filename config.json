@@ -4,7 +4,7 @@
     "import_mode": "Excel Lokal",
     "cleaning": false,
     "filter": false,
-    "show_log": true,
+    "show_log": false,
     "advanced_mode": false,
     "chrome_path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
 }
