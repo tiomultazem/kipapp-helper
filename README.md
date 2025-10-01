@@ -31,7 +31,7 @@ untuk anda, cukup dengan 1 tombol!
 | 17 Agustus 2025      | Git, Drive  | Penambahan fitur import dari Excel Drive BPS Langsung                           |
 | 20 Agustus 2025      | Github      | Mengubah tempat update menjadi di Github, menyederhanakan tampilan              |
 | 29 Agustus 2025      | Github      | Memperbaiki auto close untuk pengguna yang login menggunakan OTP                |
-| 3 September 2025     | Github      | Menambahkan fitur baru: Handling file di Drive BPS                |
+| 3 September 2025     | Github      | Menambahkan fitur baru: Copy link file simultan di Drive BPS                |
 | 15 September 2025     | Github      | Menambahkan fitur baru: Handling Rentang Tanggal                |
 | 1 Oktober 2025     | Github      | Menambahkan fitur baru: Ekspor SKP                |
 
