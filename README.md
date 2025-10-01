@@ -2,10 +2,12 @@
 
 ---
 ## Pemberitahuan Update
-Per 26 September 2025, aplikasi baru saja mendapatkan penyegaran fungsi penanganan eror. Harap **segera update** aplikasi anda.
+Per **1 Oktober 2025**, aplikasi baru saja mendapatkan penyegaran fungsi penanganan eror. Harap **segera update** aplikasi anda.
 
 ---
 ## Fitur Baru
+- Entri KiPApp sempat terhenti? Ingin lanjut nanti/besok? Tidak mengapa, karena KiPApp Helper kini 
+dapat mengekspor SKP anda yang belum selesai itu!
 - Siap bekerja dengan rentang tanggal? KiPApp Helper sekarang sudah bisa menangani rentang tanggal!
 Ayo, gunakan KiPApp Helper untuk input SKP anda yang memuat rentang tanggal itu 🥳
 - Masih _kekeuh_ menggunakan Drive BPS untuk menyimpan bukti dukung, meskipun harus enable link satu-
@@ -31,6 +33,7 @@ untuk anda, cukup dengan 1 tombol!
 | 29 Agustus 2025      | Github      | Memperbaiki auto close untuk pengguna yang login menggunakan OTP                |
 | 3 September 2025     | Github      | Menambahkan fitur baru: Handling file di Drive BPS                |
 | 15 September 2025     | Github      | Menambahkan fitur baru: Handling Rentang Tanggal                |
+| 1 Oktober 2025     | Github      | Menambahkan fitur baru: Ekspor SKP                |
 
 ---
 
