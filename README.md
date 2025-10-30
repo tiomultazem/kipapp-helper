@@ -34,6 +34,7 @@ untuk anda, cukup dengan 1 tombol!
 | 3 September 2025     | Github      | Menambahkan fitur baru: Copy link file simultan di Drive BPS                |
 | 15 September 2025     | Github      | Menambahkan fitur baru: Handling Rentang Tanggal                |
 | 1 Oktober 2025     | Github      | Menambahkan fitur baru: Ekspor SKP                |
+| 30 Oktober 2025     | Github      | Rombak total UI, fitur baru: edit langsung tabel SKP dan handling nama file di lokal |
 
 ---
 
