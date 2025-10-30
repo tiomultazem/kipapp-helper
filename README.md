@@ -2,7 +2,7 @@
 
 ---
 ## Pemberitahuan Update
-Per **1 Oktober 2025**, aplikasi baru saja mendapatkan penyegaran fungsi penanganan eror. Harap **segera update** aplikasi anda.
+Per **30 Oktober 2025**, aplikasi baru saja mendapatkan penyegaran fungsi penanganan eror. Harap **segera update** aplikasi anda.
 
 ---
 ## Fitur Baru
