@@ -6,5 +6,9 @@
         "penyesuaian redirect setelah migrasi KiPApp",
         "Penanganan eror",
         "Perbaikan minor"
+    ],
+    "2.251104": [
+        "Klik tombol panah untuk pindah sel ketika edit tabel SKP",
+        "Shift-click untuk centang beberapa baris SKP"
     ]
 }
