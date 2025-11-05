@@ -10,5 +10,10 @@
     "2.251104": [
         "Shift-click untuk centang beberapa baris SKP",
         "Klik tombol panah untuk pindah sel ketika edit tabel SKP"
+    ],
+    "2.251105": [
+        "Eror jelas ketika gagal entri baris SKP",
+        "Edit tabel lebih interaktif dan fitur shift+klik untuk memblok ceklis",
+        "Ganti redirect ke domain KiPApp yang baru"
     ]
 }
