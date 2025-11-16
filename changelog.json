@@ -15,5 +15,10 @@
         "Eror jelas ketika gagal entri baris SKP",
         "Edit tabel lebih interaktif dan fitur shift+klik untuk memblok ceklis",
         "Ganti redirect ke domain KiPApp yang baru"
+    ],
+    "2.251117": [
+        "dukungan berbagai versi python",
+        "Eror lebih jelas ketika gagal entri baris SKP",
+        "fitur edit yang lebih interaktif"
     ]
 }
