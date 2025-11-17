@@ -13,7 +13,7 @@ def pilih_folder_build():
     mapping = {
         "3.12": "build12",
         "3.13": "build13",
-        "3.14": "build14",   # opsional, siap kalau nanti ada
+        "3.14": "build14",  
     }
 
     if versi in mapping:
