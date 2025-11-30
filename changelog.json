@@ -20,5 +20,10 @@
         "dukungan berbagai versi python",
         "Eror lebih jelas ketika gagal entri baris SKP",
         "fitur edit yang lebih interaktif"
+    ],
+    "2.251130": [
+        "Penambahan kolom nomor di tampilan tabel",
+        "Perubahan tata letak di tampilan tabel",
+        "Memperjelas petunjuk yang sebelumnya umum"
     ]
 }
