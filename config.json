@@ -1,11 +1,11 @@
 {
-    "version": "2.251130",
-    "dark_mode_enabled": false,
+    "version": "2.251201",
+    "dark_mode_enabled": true,
     "hide_about": false,
     "import_mode": "Excel Lokal",
     "cleaning": false,
     "filter": false,
-    "show_log": false,
+    "show_log": true,
     "frame_cleanup": false,
     "chrome_path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
 }

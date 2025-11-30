@@ -25,5 +25,10 @@
         "Penambahan kolom nomor di tampilan tabel",
         "Perubahan tata letak di tampilan tabel",
         "Memperjelas petunjuk yang sebelumnya umum"
+    ],
+    "2.251201": [
+        "Mengubah tampilan changelog",
+        "Perbaikan bug",
+        "Penanganan eror yang lebih detail"
     ]
 }
