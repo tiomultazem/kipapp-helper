@@ -37,5 +37,8 @@
     "2.251219": [
         "perbaikan bug",
         "optimisasi pemilihan bulan berjalan pada menu navigasi"
+    ],
+    "2.251220": [
+        "Menghapus input SSO untuk meningkatkan keamanan dan kepercayaan pengguna. Login SSO kini hanya bisa dilakukan langsung di web."
     ]
 }
