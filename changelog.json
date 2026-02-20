@@ -41,5 +41,9 @@
     "2.251220": [
         "Menghapus input SSO untuk meningkatkan kepercayaan pengguna.",
         "Login SSO kini hanya bisa dilakukan langsung di web."
+    ],
+    "2.260220": [
+        "fix: implement universal stop coverage",
+        "fix tk-thread safety fixes"
     ]
 }
