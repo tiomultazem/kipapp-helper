@@ -1,8 +1,10 @@
 # KiPApp Helper
 
 ---
-## Pemberitahuan Update
-Per **1 Desember 2025**, aplikasi baru saja mendapatkan penyegaran fungsi penanganan eror. Harap **segera update** aplikasi anda.
+## Updated at 15-03-26
+
+Tau kan, kerjaan kita berkaitan dengan ZI? Kalo ada yang pakai, minta tolong untuk diusahakan buatin bukti dukungnya ya gengs!
+Surat replikasi, foto bukti penggunaan, dll itulah. Mari menuju WBBM bersama, tukin 100% semua senang 🤩
 
 ---
 ## Fitur Baru
