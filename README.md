@@ -1,10 +1,11 @@
 # KiPApp Helper
 
 ---
-## Updated at 15-03-26
+## Updated at 02-04-26
 
-Tau kan, kerjaan kita berkaitan dengan ZI? Kalo ada yang pakai, minta tolong untuk diusahakan buatin bukti dukungnya ya gengs!
-Surat replikasi, foto bukti penggunaan, dll itulah. Mari menuju WBBM bersama, tukin 100% semua senang 🤩
+- Tau kan, kerjaan kita berkaitan dengan ZI? Kalo ada yang pakai, minta tolong untuk diusahakan buatin bukti dukungnya ya gengs!
+- Surat replikasi, foto bukti penggunaan, dll itulah. Mari menuju WBBM bersama, tukin 100% semua senang 🤩
+- Berkaitan dengan update UX KiPApp dari periode bulanan menjadi periode triwulanan, developer memberitahukan bahwa tidak ada fungsi KiPApp Helper yang terdampak serius selain fitur navigasi. Silakan lanjut menggunakan KiPApp Helper!
 
 ---
 ## Fitur Baru
