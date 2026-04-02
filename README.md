@@ -18,6 +18,7 @@ persatu? Tenang. KiPApp Helper juga mendukung ke-_kekeuh_-an anda kok! Dia akan 
 untuk anda, cukup dengan 1 tombol!
 
 ## Riwayat Update
+Penulisan riwayat update di sini terhenti pada 30 Oktober 2025 karena dilanjutkan di tampilan update di aplikasi.
 
 | Waktu                  | Lokasi Update | Rincian Update                                                                 |
 |------------------------|---------------|--------------------------------------------------------------------------------|
@@ -108,13 +109,23 @@ nya langsung ke isian, dan tombol di sebelah kanan akan berubah tulisan menjadi 
 13. Tombol `Lihat Tabel`: Untuk memunculkan Pop Up tampilan tabel data SKP.
 14. Tab `Main Control`: Memuat 3 tombol fitur utama entri SKP.
 
-_to be continued_
+_to be continued ketika sempat_
 
 ---
 
 ## QnA
 
 Anda bisa mengakses https://s.bps.go.id/kipapp-helper-qna untuk mengakses QnA
+
+---
+
+## Dukungan
+
+Jika aplikasi ini bermanfaat dan Anda ingin memberikan dukungan, Anda dapat mentraktir saya kopi melalui:
+
+**GoPay**  0895-42360-5577  a.n. Tio Multazem
+
+Dukungan Anda sepenuhnya bersifat sukarela dan tidak terkait dengan fitur atau layanan tertentu.
 
 ---
 
