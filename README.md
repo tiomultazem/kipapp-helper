@@ -18,7 +18,7 @@ persatu? Tenang. KiPApp Helper juga mendukung ke-_kekeuh_-an anda kok! Dia akan 
 untuk anda, cukup dengan 1 tombol!
 
 ## Riwayat Update
-Penulisan riwayat update di sini terhenti pada 30 Oktober 2025 karena dilanjutkan di tampilan update di aplikasi.
+Penulisan riwayat update di README terhenti pada 30 Oktober 2025 karena dilanjutkan di tampilan update di aplikasi.
 
 | Waktu                  | Lokasi Update | Rincian Update                                                                 |
 |------------------------|---------------|--------------------------------------------------------------------------------|
@@ -57,6 +57,10 @@ biasanya meng-upload bukti dukung di Drive BPS yang harus _enable sharing_ setia
 seperti ini, maka malah terjadi redundansi di pengisian SKP serta redudansi di pengumpulan link bukti dukung.
 Repot pangkat dua.
 
+Kenapa tidak entri harian? BPS Kabupaten-Kota tidak memiliki fasilitas always-on-VPN yang bisa menjaga sesi
+SSO pegawai selalu tersimpan, menyebabkan pegawai kabkot harus login setiap hari hanya untuk mengisi KiPApp
+harian. Kalau sederhana sih, oke ya. Masalahnya, dari login ke entri itu yang perlu cukup jauh melangkahnya :(
+
 Jadi saya memikirkan: "Bisa tidak ya, ~saya intervensi Direktorat SIS agar~ pengisian KiPApp menjadi otomatis?" 
 
 ...
@@ -87,9 +91,9 @@ Pertanyaan bisa diajukan di QnA yang link nya saya sertakan di sana, ya.
 
 ---
 
-### Penjelasan Fitur
+## Penjelasan Fitur
 
-#### Jendela Utama
+### Jendela Utama
 1. Checkbox `Advanced Mode`: Menampilkan menu advanced yang tidak tercakup dalam fungsi utama entri SKP.
 2. Checkbox `Tampilkan Log`: Menampilkan/Menyembunyikan Log Aktivitas di bawah.
 3. Lampu: kiri, akan menyala kuning bila aplikasi sibuk, dan abu-abu bila idle. kanan, akan menyala hijau bila
@@ -109,7 +113,11 @@ nya langsung ke isian, dan tombol di sebelah kanan akan berubah tulisan menjadi 
 13. Tombol `Lihat Tabel`: Untuk memunculkan Pop Up tampilan tabel data SKP.
 14. Tab `Main Control`: Memuat 3 tombol fitur utama entri SKP.
 
-_to be continued ketika sempat_
+_to be continued ketika sempat, Sebenernya, panduan di gdocs di link atas cukup lengkap dan membantu hingga SKP anda_
+_ter-entri. di sini saya hanya menulis rilis, about, penjelasan fitur dan dukungan kalo mau mendukung. selebihnya, karena_
+_ini adalah lazy project, saya sendiri lazy melengkapi README ini. jadi, yuk, akses panduannya sekarang!_
+
+di sini >>> https://s.bps.go.id/kipapp-helper-panduan-beta 
 
 ---
 
