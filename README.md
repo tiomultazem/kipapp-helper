@@ -1,10 +1,10 @@
 # KiPApp Helper V2
 
 ---
-## WARNING
+## WARNING - Discontinuation Notice
 
-This project will soon be discontinued as I will build and continuously develop a new version of KiPApp Helper,
-which provides a faster, more robust, and more reliable way to input your daily SKP. It will be released as version 3.
+I discontinued this project as I built and continuously develop a new version of brutally faster, more robust,
+and more reliable KiPApp Helper, released as version 3.
 
 However, you can still use this KiPApp Helper v2 as long as the KiPApp web does not undergo major changes to its HTML
 elements (likely at least for this year).

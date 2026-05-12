@@ -1,0 +1,6 @@
+src/
+*.txt
+*.bat
+!runner.bat
+*.py
+!main.py
